@@ -50,7 +50,8 @@ button , .cta{
 // for grid// 
 .features , .team-grid{
   display: grid;
-  grid-template-columns:repeat(auto-fit,minmax(200px,1fr));// you can change the px of image based 
+  grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+  // you can change the px of image based 
   on your needed showcase input let or cons//
   gap : 20px;
 }
@@ -78,7 +79,7 @@ button , .cta{
 footer {padding : 20px; opacity: .6}
         
 // for background (USED CSS SPACE RESOURCES FOR  MY PROJECT FROM CODEPEN AND OTHER FORNTEND TOOLS YOU CAN 
-        JUST FIND SPACE REALATED DESIGNS AND ASSIGN THEM ACCORFDING TO YOUR NEED)//{
+   JUST FIND SPACE REALATED DESIGNS AND ASSIGN THEM ACCORFDING TO YOUR NEED)//{
   .space-bg{
     position:fixed;
     inset:0;
@@ -99,7 +100,7 @@ footer {padding : 20px; opacity: .6}
 .shape{
   position : absolute;
   width: 70px;
-  height : 70px;
+    height : 70px;
   opacity: .7;
   animation  : float 10s ease-in-out infinite alternate;
    }
@@ -113,17 +114,4 @@ footer {padding : 20px; opacity: .6}
     spin{to{transform : rotate(360deg)}}
     @keyframes
     float{to { tranform : traslateY(-30px)}}      
-    //// :) :) ////
-          
-          
-  
-
-
-
-
-
-
-
-  
-    
-
+    //// :)  ////
