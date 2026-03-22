@@ -1,4 +1,4 @@
-# basic-electrical-webpage
+# Basic-electrical-webpage
 This project is web-based presentation of our basic electrical engineering (bee).
 Designed to clearly explain the working , components , and implementation of the system.
 The website acts as digital showcase,making it easier to understand the project through structured content and visuals.
