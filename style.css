@@ -1,0 +1,129 @@
+/// css// 
+:root{
+  -- accent : #1e90ff;
+   -- bg: # 0b1020;
+  --card : rgba(255,255,255,0.08);
+      --text : #fff;
+}
+// for theme //
+ body {
+    margin : 0;
+    front-family : 'segoe UI' , sans-serif;
+        background: var(--bg);
+     color : var(--text);
+    transtion : .5s;
+  }
+body.neon{
+  -- accent:#00ffff;
+--bg:
+radial-gradient(circle at 20% 20% , #7f00ff55,transparent),
+   radial-gradient(circle at 80% 30% , #00ffff55,transparent),
+  #05000f;
+     --card: rgba(0,255,255,.12);
+}
+ //  for layout // 
+section {padding :60px
+20 px;text-align:center}
+
+// for hero//
+.hero h1A{
+  font-size : 2.8rem;
+  text-shadow: 0 0 15px var (--accent);
+}
+// for button //
+button , .cta{
+  padding : 12px 25px;
+  border :none ;
+  border -radius :25px;
+  background : linear-gradient (135deg, var (--accent),#005eff);
+  color: #fff;
+  cursor: pointer ;
+}
+// card //
+.card, . feature  ,. member{
+  background: var (--card);
+  padding : 20px;
+  border-radius = 15px;
+  backdrop -filter :blur(10px)// during the scroll of front screen the background design gets blured
+  but with continuation of movement of shapes//
+}
+// for grid// 
+.features , .team-grid{
+  display: grid;
+  grid-template-columns:repeat(auto-fit,minmax(200px,1fr));// you can change the px of image based 
+  on your needed showcase input let or cons//
+  gap : 20px;
+}
+// for gallery//
+.gallery-grid{
+  display : flex;
+  gap:15px;
+  justify-content:center;// placment of image position//
+  flex-wrap:wrap;
+}
+.gallery img{
+  width : 200px;
+  height : 130px;
+  border-radius : 12px;
+  object-fit: cover;
+}
+// for controls//
+.control-grid{
+  display: flex;
+  gap : 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+// for footer//
+footer {padding : 20px; opacity: .6}
+        
+// for background (USED CSS SPACE RESOURCES FOR  MY PROJECT FROM CODEPEN AND OTHER FORNTEND TOOLS YOU CAN 
+        JUST FIND SPACE REALATED DESIGNS AND ASSIGN THEM ACCORFDING TO YOUR NEED)//{
+  .space-bg{
+    position:fixed;
+    inset:0;
+    z-index: -1;
+    background :radial-gradient(circle,#0b1535, #050812 70%);
+  }
+  // for orbits//
+          .orbit{
+          position : absolute;
+          border:1px dashed rgba(0,255,255,.2);
+          border-radius :50%;
+          animation : spin linear infinite;
+        }
+   .orbit-1{ width : 500px;height :500px; top: 20%; left : 10%;animations-duration: 60s}
+    .orbit-1{ width : 800px;height :800px; top: 50%; left : 60%;animations-duration: 90s}
+
+      /// for shapes//
+.shape{
+  position : absolute;
+  width: 70px;
+  height : 70px;
+  opacity: .7;
+  animation  : float 10s ease-in-out infinite alternate;
+   }
+  .cube{
+    background : linear-gradient(135deg,#0ff,#7f00ff);  top : 30%;left:70%}
+  .diamond{
+    background :linear -gradient (135deg,#f0a,#0ff); transform: rotate(45deg);
+           top : 65 %;left : 25%}
+ // for  animation// 
+    @keyframes
+    spin{to{transform : rotate(360deg)}}
+    @keyframes
+    float{to { tranform : traslateY(-30px)}}      
+    //// :) :) ////
+          
+          
+  
+
+
+
+
+
+
+
+  
+    
+
